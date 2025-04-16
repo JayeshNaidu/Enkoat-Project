@@ -1,0 +1,13 @@
+# Python virtual environment
+Backend - FastApi+Sqlite/.venv/
+Backend - FastApi+Sqlite/__pycache__/
+Backend - FastApi+Sqlite/*.pyc
+
+# SQLite database
+Backend - FastApi+Sqlite/quotes.db
+
+# Node.js dependencies
+frontend/node_modules/
+
+#env
+frontend/.env
