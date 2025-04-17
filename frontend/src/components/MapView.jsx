@@ -47,7 +47,7 @@ const MapView = ({ quotes }) => {
   return (
     <LoadScript
       googleMapsApiKey="AIzaSyB9-8y9QHoJE-ciCncjHQGbmYjQw6L_hbU"
-      // googleMapsApiKey={`${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
+      //googleMapsApiKey={`${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
       libraries={['visualization']}
     >
       <GoogleMap

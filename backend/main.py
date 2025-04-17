@@ -56,7 +56,11 @@ def init_db():
 
 init_db()
 
-# POST: Add a quote
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+# POST: get a quote
 @app.get("/quotes")
 def get_quotes(state: str = None, roof_type: str = None):
     conn = sqlite3.connect(DB_NAME)
